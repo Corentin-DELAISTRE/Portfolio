@@ -4,7 +4,7 @@ let url = adress[adress.length-1]//Je récupère le bout d'url qui change selon 
 
 liens.forEach(lien => {//Pour chaque lien de ma nav
     page = lien.href.split("/")//Je coupe l'adresse associé en 3
-    pageName = page[3]//Je récupère le morceau d'adressse qui correspond à ma page (exemple: index.html)
+    pageName = page[page.length-1]//Je récupère le morceau d'adressse qui correspond à ma page (exemple: index.html)
 
     if(pageName === url){//Si le lien correspond à l'url de ma page actuelle
       lien.style.transform = "translateX(0)"//Alors mon lien est visible
