@@ -8,7 +8,7 @@ liens.forEach(lien => {//Pour chaque lien de ma nav
     if(url === ""){//Si mon url est vide (par rapport à github)
       liens[0].style.transform = "translateX(0)"//Le lien accueil apparaît
     }
-    else if(pageName === url){//Si le lien correspond à l'url de ma page actuelle
+    if(pageName === url){//Si le lien correspond à l'url de ma page actuelle
       lien.style.transform = "translateX(0)"//Alors mon lien est visible
     }else{//Sinon
       lien.addEventListener("mouseenter", () => {//Lorsque ma souris survole le lien
