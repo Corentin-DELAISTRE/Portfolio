@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="page d'accueil du portfolio de corentin delaistre developpeur front-end avec un menu donnant accès aux pages projets, à propos, contact ainsi qu'a un curriculum vitae">
+    <title>Accueil - Portfolio de Corentin DELAISTRE Developpeur Front-End</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+</head>
+<body id="index-body" class="fade-in">
+    <main>
+
+        <nav>                                               <!-- NAV LATERALE -->
+            <ul class="flexwrap">
+                <li><a href="./index.html" title="Acceder à la page d'accueil">Accueil</a></li>
+                <li><a href="./projects.html" title="Acceder à la page projets">Projets</a></li>
+                <li><a href="./about.html" title="Acceder à la page à propos">A propos</a></li>
+                <li><a href="./contact.html" title="Acceder à la page contact">Contact</a></li>
+                <li><a href="./cv.html" title="Télécharger le CV">CV</a></li>
+            </ul>
+        </nav>
+        
+        <div class="main-container cont1200 swiper mySwiper swiper-index">                    <!-- CONTAINER -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide defaut-slide">                 <!-- DEFAUT BOX -->
+                    <div class="box defaut-box flexwrap justcenter">
+                       <div class="nom-prenom">        
+                            <div class="prenom w100">
+                                <h2>CORENTIN</h2>
+                            </div>
+                            <div class="nom w100">
+                                <h2>DELAISTRE</h2>
+                            </div>
+                        </div>
+                        <div class="scroll-advice w100 flexwrap justcenter">
+                            <div class="text-arrow flexwrap w100 justcenter">
+                                <div class="arrow left-arrow">🠄</div>
+                                <p class="scrollez">Scrollez pour naviguer</p>
+                                <div class="arrow right-arrow">🠆</div>
+                            </div>
+                            <div class="mouse-icon"><img src="./assets/molette_icon.png" alt="icône de molette de souris"></div>
+                        </div> 
+                    </div>
+                    
+                </div>
+                
+                <article class="swiper-slide">               <!-- PROJETS BOX -->
+                    <div class="box projets-box flexwrap spacebetween box-shadow pad-box">
+                        <div class="text-box w45 flexwrap align-center">
+                            <h3>//Projets//</h3>
+                            <p>
+                                Découvrez mes premiers pas dans le monde du développement web à travers une collection de projets passionnants. Chaque sujet représente un nouveau défi surmonté et une occasion d'apprentissage, où chaque ligne de code contribue à mon évolution...
+                            </p>
+                            <a href="./projects.html" title="Acceder à la page projets" class="btn">Consulter la page</a>
+                        </div>
+                        <div class="img-box projets-img w45">
+                            <img src="./assets/interno.PNG" alt="image du site venant du projet 4 éléments" class="img-top">
+                            <img src="./assets/mntn.PNG" alt="image du site venant du projet MNTN" class="img-mid">
+                            <img src="./assets/Projets-img/4elements/projets_4_elements.png" alt="image du site venant du projet Interno" class="img-bot">
+                        </div> 
+                    </div>
+                </article>
+                
+                <article class="swiper-slide">               <!-- APROPOS BOX -->
+                    <div class="box apropos-box flexwrap spacebetween box-shadow pad-box">
+                        <div class="text-box w60 flexwrap align-center">
+                            <h3>//A propos//</h3>
+                            <p>
+                                Je vous invite à explorer mon cheminement en tant que novice du développement web. Plongez dans mon engagement à apprendre et à grandir, ma volonté d'explorer de nouveaux outils, et ma détermination à créer des expériences en ligne remarquables...
+                            </p>
+                            <a href="./about.html" title="Acceder à la page à propos" class="btn">Consulter la page</a>
+                        </div>
+                        <div class="img-box apropos-img w35">
+                            <img src="./assets/profil_img.jpg" alt="Portrait Photo de Corentin Delaistre" class="responsive-img one-img">
+                        </div>
+                    </div>    
+                </article>
+                
+                <article class="swiper-slide">               <!-- CONTACT BOX -->
+                    <div class="box apropos-box flexwrap spacebetween box-shadow pad-box">
+                        <div class="text-box w60 flexwrap align-center">
+                            <h3>//Contact//</h3>
+                            <p>
+                                Besoin de me contacter ? N'hésitez pas ! Quel que soit le sujet, je suis toujours ravi de recevoir vos messages. Je vous répondrai dès que possible !
+                            </p>
+                            <a href="./contact.html" title="Acceder à la page contact" class="btn">Consulter la page</a>
+                        </div>
+                        <div class="img-box contact-img w35">
+                            <img src="./assets/contact_article.jpg" class="responsive-img one-img" alt="Image d'une lettre manuscrite sur un bureau avec un stylo posé dessus, à coté sont posés une tasse de café, un ordinateur portable, une petite plante et divers materiel de bureau">
+                        </div>
+                    </div>
+                </article>
+                <!-- <article class="swiper-slide">               CORRESPOND AU CV QUI REMPLACERA LA SLIDE PAR DEFAUT POUR EVITER UN DECALAGE
+                    <div class="box cv-box flexwrap spacebetween box-shadow pad-box">
+                        <div class="text-box w60 flexwrap align-center">
+                            <h3>//Curriculum Vitae//</h3>
+                            <p>
+                                À la recherche d'informations condensées et précises ? Téléchargez simplement mon CV pour découvrir un résumé complet de mon parcours professionnel, compétences clés et réalisations. C'est le moyen idéal d'obtenir un aperçu rapide de ce que je peux offrir.
+                            </p>
+                            <a href="" title="Télécharger le CV" class="btn">Télécharger le CV en PDF</a>
+                        </div>
+                        <div class="img-box cv-img w35">
+                            <img src="./assets/CV_box.jpg" class="responsive-img one-img" alt="Image d'un bureau en bois avec un ordinateur portable ouvert sur un document. A coté on peut voir différents équipement de bureau, un smartphone ainsi que quelque plantes">
+                        </div>
+                    </div>
+                </article> -->
+                
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <div class="np-bot-index">                            <!-- NOM PRENOM BOTTOM -->
+            <div class="prenom-bot w100">
+                <h2>CORENTIN</h2>
+            </div>
+            <div class="nom w100">
+                <h2>DELAISTRE</h2>
+            </div>
+        </div>
+        <div class="dev-front textcenter fade-in-left">                     <!-- DEV FRONT -->
+            <h1>Développeur Front-End</h1>
+        </div>
+        
+    </main>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./nav-app.js"></script>
+    <script src="./index-app.js"></script>
+</body>
+</html>

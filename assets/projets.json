@@ -1,0 +1,39 @@
+[
+    {
+        "titre": "4 Elements",
+        "badges":["Examen","HTML", "CSS"],
+        "contDesc":"4 Éléments, un groupe franco-chinois, propose des hôtels insolites intégrés à des environnements naturels, ciblant les couples CSP+ sans enfant, avec un site web élégant permettant des réservations en ligne ou par téléphone, incluant des animations au survol en accord avec leur esthétique.",
+        "adresse":"http://adresse-fictive.com",
+        "objDesc":{
+            "obj1":"Effectuer une analyse du cahier des charges, du design system et des maquettes fournis. ",
+            "obj2":"Intégrer la page d'accueil du site ainsi que la page de l'hôtel \"Feu\" en ayant préalablement schématisé leur structure.",
+            "obj3":"Ces pages ont dû être optimisées pour une expérience responsive maximale.",
+            "obj4":"Renseigner tous les éléments nécessaires au référencement tels que le titre, la méta-description, le titre des liens et l'attribut \"alt\" des images."
+        },
+        "photos":{
+            "img1":"4elements/projets_4_elements.png",
+            "img2":"4elements/projets_4_elements_createur.png",
+            "img3":"4elements/projets_4_elements_hotelfeu.png",
+            "img4":"4elements/projets_4_elements_servicessupp.png"
+        }
+    },
+
+    {
+        "titre": "Dehors!",
+        "badges":["Examen","HTML", "CSS", "JS"],
+        "contDesc":"\"Dehors! Escape Game Paris\" est une entreprise proposant des jeux d'évasion en extérieur à Paris. Le site vise à promouvoir leurs activitées en fournissant des informations sur les expériences proposées, les thèmes des jeux ou encore les avantages de participer",
+        "adresse":"http://adresse-fictive.com",
+        "objDesc":{
+            "obj1":"Utilisation d'un fichier JSON pour générer certains contenus dynamiquement (appel AJAX avec \"fetch()\")",
+            "obj2":"Utilisation de la sémantique et des attributs pour l'accessibilité et le référencement",
+            "obj3":"Optimisation de la page pour le responsive",
+            "obj4":"Respect de l'aspect général de la maquette"
+        },
+        "photos":{
+            "img1":"Dehors!/dehors_cards.png",
+            "img2":"Dehors!/dehors_mid.png",
+            "img3":"Dehors!/dehors_cards.png",
+            "img4":"Dehors!/dehors_mid.png"
+        }
+    }
+]

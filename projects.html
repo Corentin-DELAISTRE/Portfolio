@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="page d'accueil du portfolio de corentin delaistre developpeur front-end avec un menu donnant accès aux pages projets, à propos, contact ainsi qu'a un curriculum vitae">
+    <title>Projets - Portfolio de Corentin DELAISTRE Developpeur Front-End</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+</head>
+<body id="projets-body" class="fade-in">
+    <main>
+        <nav>                                               <!-- NAV LATERALE -->
+            <ul class="flexwrap">
+                <li><a href="./index.html" title="Acceder à la page d'accueil">Accueil</a></li>
+                <li><a href="./projects.html" title="Acceder à la page projets">Projets</a></li>
+                <li><a href="./about.html" title="Acceder à la page à propos">A propos</a></li>
+                <li><a href="./contact.html" title="Acceder à la page contact">Contact</a></li>
+                <li><a href="./cv.html" title="Télécharger le CV">CV</a></li>
+            </ul>
+        </nav>
+        <div class="swiper swiper-projets cont1050"> <!-- CONTAINER PROJETS -->
+            <div class="swiper-wrapper wrapper-projets">
+                <!--  <div class="swiper-slide">
+                     <div class="projet-slide pad-proj flexwrap g24">       //TEMPLATE DE SLIDE
+                        <div class="titre-projet flexwrap spacebetween align-center w100">
+                            <h3>//4 Elements//</h3> // TITRE ET BADGES 
+                            <div class="badges flexwrap g16">
+                                <div class="badge badge-Examen">Examen</div>
+                                <div class="badge badge-HTML">HTML</div>
+                                <div class="badge badge-CSS">CSS</div>
+                            </div>
+                        </div>
+                        <div class="proj-infos flexwrap spacebetween"> // INFOS TEXTUELLES 
+                            <div class="infos-left w48 flexwrap g24">
+                                <div class="sujet flexwrap g10 pad-proj black-box">
+                                    <h4>Le contexte</h4>
+                                    <p>
+                                        4 Éléments, un groupe franco-chinois, propose des hôtels insolites intégrés à des
+                                        environnements naturels, ciblant les couples CSP+ sans enfant, avec un site web élégant
+                                        permettant des réservations en ligne ou par téléphone, incluant des animations au survol
+                                        en accord avec leur esthétique.
+                                    </p>
+                                </div>
+                                <div class="flexwrap justcenter black-box pad-proj w100">
+                                    <h4 class="textcenter">Visiter le site</h4>
+                                    <a href="">http://adresse-fictive.com</a>
+                                </div>
+                            </div>
+                            <div class="infos-right w48 flexwrap g24 black-box pad-proj">
+                                <h4>Les objectifs</h4>
+                                <p>Effectuer une analyse du cahier des charges, du design system et des maquettes fournis. </p>
+                                <p>Intégrer la page d'accueil du site ainsi que la page de l'hôtel "Feu" en ayant préalablement
+                                    schématisé leur structure. </p>
+                                <p>Ces pages ont dû être optimisées pour une expérience responsive maximale.</p>
+                                <p>Renseigner tous les éléments nécessaires au référencement tels que le titre, la
+                                    méta-description, le titre des liens et l'attribut "alt" des images.</p>
+                            </div>
+                        </div>
+                        <div class="swiper swiper-auto w100"> // CAROUSEL AUTO
+                            // Additional required wrapper 
+                            <div class="swiper-wrapper swiper-wrapper-linear">
+                                // Slides 
+                                <div class="swiper-slide"><img class="responsive-img" src="./assets/projets_4_elements.png" alt=""></div>
+                                <div class="swiper-slide"><img class="responsive-img"src="./assets/projets_4_elements_hotelfeu.png" alt=""></div>
+                                <div class="swiper-slide"><img class="responsive-img"src="./assets/projets_4_elements_servicessupp.png" alt=""></div>
+                                <div class="swiper-slide"><img class="responsive-img"src="./assets/projets_4_elements_hotelfeu.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="scroll-downs">              <!-- ICONE SOURIS SCROLL -->
+            <div class="mousey">
+                <div class="scroller"></div>
+            </div>
+        </div>
+
+        <div class="np-bot">                <!-- NOM PRENOM BOTTOM -->
+            <div class="prenom-bot w100">
+                <h2>CORENTIN</h2>
+            </div>
+            <div class="nom w100">
+                <h2>DELAISTRE</h2>
+            </div>
+        </div>
+        <div class="dev-front textcenter fade-in-left">                     <!-- DEV FRONT -->
+            <h1>Développeur Front-End</h1>
+        </div>
+        
+    </main>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./nav-app.js"></script>
+    <script src="./projets-app.js"></script>
+</body>
+</html>
