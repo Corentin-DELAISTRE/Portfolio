@@ -5,8 +5,8 @@ let url = adress[adress.length-1]//Je récupère le bout d'url qui change selon 
 liens.forEach(lien => {//Pour chaque lien de ma nav
     page = lien.href.split("/")//Je coupe l'adresse associé en 3
     pageName = page[page.length-1]//Je récupère le morceau d'adressse qui correspond à ma page (exemple: index.html)
-    if(url === ""){
-      liens[0].style.transform = "translateX(0)"
+    if(url === ""){//Si mon url est vide (par rapport à github)
+      liens[0].style.transform = "translateX(0)"//Le lien accueil apparaît
     }
     else if(pageName === url){//Si le lien correspond à l'url de ma page actuelle
       lien.style.transform = "translateX(0)"//Alors mon lien est visible
