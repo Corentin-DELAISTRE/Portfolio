@@ -12,7 +12,10 @@ let scrollSwip = document.querySelector(".swiper-wrapper")//Je vais chercher mon
 let nomPrenom = document.querySelector(".np-bot-index")//Je vais chercher ma div "nom-prenom" cachée en bas à gauchede ma page
 let defautSlide = document.querySelector(".defaut-slide")//Je vais recuperer ma slide defaut => celle qui indique de scroller au debut pour naviguer
 
-scrollSwip.addEventListener("wheel",()=>{//Je place un écouteur d'évènement au scroll sur mon slider
+scrollSwip.addEventListener("wheel",replace)
+scrollSwip.addEventListener("touchmove",replace)
+
+function replace(){
   setTimeout(()=>{//J'attends avant d'executer ma fonction
     nomPrenom.style.transform = "translateX(0)"//ma div "nom-prenom" en bas à gauche apparaît
     //Le contenu de ma slide "defaut" devient celle correspondant à mon CV. Cela évite d'enlever une slide et d'avoir un décalage non controlé dans le slider
@@ -29,4 +32,12 @@ scrollSwip.addEventListener("wheel",()=>{//Je place un écouteur d'évènement a
                                 </div>
                             </div>`
   },1000)//Correspond au temps d'attente avant d'executer la fonction soit 1 secondes => le temps que met le slider pour changer de slide
-})
+}
+
+let advice = document.querySelector(".scrollez")
+let icon = document.querySelector(".mouse-icon")
+
+if(window.innerWidth <= 1080){
+  advice.innerText = "Swiper pour naviguer"
+  icon.innerHTML = `<img src="./assets/touch_icon.png" alt="icône de main fermée avec l'index tendu"></img>`
+}

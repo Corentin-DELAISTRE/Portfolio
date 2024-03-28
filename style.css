@@ -24,6 +24,7 @@ body{
     font-family: "Lato";
     font-size: 16px;
     color: white;
+    height: 100vh;
 }
 p{
     height: fit-content;
@@ -52,7 +53,7 @@ h4{
     height: fit-content;
     width: 100%;
 }
-nav{
+.navlat{
     position: fixed;
     top: 50px ;
     left: 0;
@@ -66,7 +67,7 @@ li{
     width:100%;
     text-align: center;
 }
-li a{
+.navlat li a{
     display: block;
     padding: 5px 38px;
     background-color: var(--black50);
@@ -170,6 +171,9 @@ address a{
 }
 .w15{
     width: 15%;
+}
+.w13{
+    width: 13%;
 }
 .btn{
     background-color: var(--black60);
@@ -515,4 +519,117 @@ nav a{
 }
 .p-contact{
     font-size: 20px;
+}
+/*RESPONSIVE*/
+@media all and (max-width: 580px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .navlat{
+        display:none;
+    }
+    header{
+        height: 5rem;
+        background-color: var(--black100);
+        padding: 0 20px;
+    }
+    .burger-nav{
+        z-index:10000;
+        background-color: var(--black100);
+        width: 100%;
+        height: 100%;
+        padding: 32px;
+        position: fixed;
+        top:5rem;
+        right:0;
+        transform: translateX(100%);
+        transition: transform 1s ease;
+    }
+    .burger-nav ul{
+        margin-top: 5rem;
+    }
+    .burger-nav a{
+        font-size: 40px;
+    }
+    .open-burg{
+        transform: translateX(0);
+    }
+    .dev-front{
+        width: 230px;
+        position: absolute;
+        right: 0;
+        bottom: 25px;
+    }
+   
+    /*INDEX*/
+    #index-body {
+        background-position: center;
+    }
+    .np-bot-index{
+        width: fit-content;
+        position: absolute;
+        left: 25px;
+        bottom: 25px;
+        transform: translateX(calc(-100% - 50px));
+        transition: transform ease 0.8s;
+    }
+    .np-bot-index h2{
+        font-size: 24px;
+    }
+    .nom-prenom{
+        width: 400px;
+    }
+    .text-arrow{
+        font-size: 24px;
+        gap: 50px;
+    }
+    .scroll-advice{
+        align-content: start;
+    }
+    .mouse-icon{
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-index {
+        height: 650px;
+        position: absolute;
+        top:2rem;
+    }
+    .defaut-box{
+        align-content: center!important;
+    }
+    .box-shadow{
+        background-color: var(--black80);
+        box-shadow: 0 0 0 ;
+    }
+    .box{
+        width: 100%;
+        height:  100%;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .text-box{
+        width: 100%;
+        align-items: start;
+        height: fit-content;
+        gap: 32px;
+    }
+    .projets-img{
+        width: 100%!important;
+        height: 250px !important;
+        border-radius: 50px 0 50px 0;
+    }
+    .img-box{
+        width: 250px;
+        height: 250px;
+    }
+    .img-box img{
+        border-radius: 50px 0 50px 0;
+    }
 }

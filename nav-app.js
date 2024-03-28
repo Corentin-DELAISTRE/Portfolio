@@ -1,4 +1,4 @@
-let liens = document.querySelectorAll("nav a")//Je récupère les liens de ma nav 
+let liens = document.querySelectorAll(".navlat a")//Je récupère les liens de ma nav 
 let adress = window.location.href.split("/")//Je recupère mon url et je la coupe en 3
 let url = adress[adress.length-1]//Je récupère le bout d'url qui change selon ma page (exemple: index.html)
 
