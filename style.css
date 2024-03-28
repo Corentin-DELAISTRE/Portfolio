@@ -27,7 +27,7 @@ body{
     height: 100vh;
 }
 main{
-    height:100vh;
+    height:100%;
 }
 p{
     height: fit-content;
@@ -207,6 +207,15 @@ address a{
 }
 .g100{
     gap: 100px;
+}
+header{
+    display: none;
+}
+header div{
+    width: 5rem;
+}
+.burger-nav{
+    display: none;
 }
 /*ANIMATIONS*/
 .fade-in {
@@ -538,11 +547,17 @@ nav a{
         display:none;
     }
     header{
+        display: block;
+    }
+    header>div{
+        display: block;
+        width: 100%;
         height: 5rem;
         background-color: var(--black100);
         padding: 0 20px;
     }
     .burger-nav{
+        display: block;
         z-index:10000;
         background-color: var(--black100);
         width: 100%;
@@ -558,7 +573,7 @@ nav a{
         margin-top: 1rem;
     }
     .burger-nav a{
-        font-size: 40px;
+        font-size: 24px;
     }
     .open-burg{
         transform: translateX(0);
@@ -650,5 +665,156 @@ nav a{
         object-fit: cover;
         object-position: center;
     }
-    
+}
+@media all and (min-width:581px) and (max-width:1150px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 48px;
+    }
+    .navlat{
+        display:none;
+    }
+    header{
+        display: block;
+    }
+    header>div{
+        width: 100%;
+        height: 5rem;
+        background-color: var(--black100);
+        padding: 0 20px;
+    }
+    .burger-nav{
+        display: block;
+        z-index:10000;
+        background-color: var(--black100);
+        width: 100%;
+        height: 100%;
+        padding: 32px;
+        position: fixed;
+        top:5rem;
+        right:0;
+        transform: translateX(100%);
+        transition: transform 1s ease;
+    }
+    .burger-nav ul{
+        margin-top: 1rem;
+    }
+    .burger-nav a{
+        font-size: 24px;
+    }
+    .open-burg{
+        transform: translateX(0);
+    }
+    .dev-front{
+        width: 450px;
+        position: absolute;
+        right: 0;
+        bottom: 25px;
+    }
+    .pad-box{
+        padding: 32px;
+    }
+    .btn{
+        border: solid 1px white;
+        width: fit-content;
+        text-align: center;
+    }
+    /*INDEX*/
+    #index-body {
+        background-position: center;
+    }
+    .np-bot-index{
+        width: fit-content;
+        position: absolute;
+        left: 50%;
+        top:15px;
+        transform: translateX(-50%);
+        transform: translateY(calc(-100% - 15px));
+        transition: transform ease 0.8s;
+    }
+    .np-bot-index h2{
+        font-size: 20px;
+    }
+    .nom-prenom{
+        width: 300px;
+    }
+    .text-arrow{
+        font-size: 24px;
+        gap: 50px;
+    }
+    .scroll-advice{
+        align-content: start;
+    }
+    .mouse-icon{
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-index {
+        width: 580px;
+        height: 70%;
+        margin-top: -6rem;
+    }
+    .defaut-box{
+        align-content: center!important;
+    }
+    .box-shadow{               /*BOXES*/
+        background-color: var(--black50);
+        box-shadow: 20px 20px 0px 0px var(--black25);
+    }
+    .box{
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .text-box{
+        width: 100%;
+        align-items: start;
+        gap: 32px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .projets-img{
+        width: 100%!important;
+        height: 40% !important;
+    }
+    .projets-img img{
+        width:60% ;
+        height: auto;
+    }
+    .img-box{
+        width: 100%;
+        height: 50%;
+    }
+    .img-box img{
+        border-radius: 0;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+@media all and (min-width:1151px) and (max-width:1500px){
+    h3{
+        font-size: 32px;
+    }
+    .swiper-index {
+        max-width: 800px;
+        height: 400px;
+    }
+    .burger-nav{
+        display: none;
+    }
+    .img-box img{
+        border-radius: 0;
+        object-fit: cover;
+        object-position: center;
+    }
+    .defaut-box{
+        gap: 0;
+    }
 }

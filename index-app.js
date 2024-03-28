@@ -17,9 +17,9 @@ scrollSwip.addEventListener("touchmove",replace)
 
 function replace(){
   setTimeout(()=>{//J'attends avant d'executer ma fonction
-    if(window.innerWidth > 1080){
+    if(window.innerWidth > 1200){
       nomPrenom.style.transform = "translateX(0)"
-    }else if(window.innerWidth <= 1080){
+    }else if(window.innerWidth <= 1200){
       nomPrenom.style.transform = "translateY(0)"
       nomPrenom.style.transform = "translateX(-50%)"
     }
@@ -43,7 +43,7 @@ function replace(){
 let advice = document.querySelector(".scrollez")
 let icon = document.querySelector(".mouse-icon")
 
-if(window.innerWidth <= 1080){
+if(window.innerWidth <= 1050){
   advice.innerText = "Swiper pour naviguer"
   icon.innerHTML = `<img src="./assets/touch_icon.png" alt="icône de main fermée avec l'index tendu"></img>`
 }

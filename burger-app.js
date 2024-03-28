@@ -1,5 +1,6 @@
 let burger = document.getElementById("burger")
 let nav = document.querySelector(".burger-nav")
+let header = document.querySelector("header")
 
 burger.addEventListener("click",()=>{
     if(nav.classList.contains("open-burg") === false){
