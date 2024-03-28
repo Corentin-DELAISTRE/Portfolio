@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Une sélection des meilleurs projets personnels et professionnels de Corentin DELAISTRE, développeur Front-End à Saint-Etienne incluant sites et applications">
     <title>Projets professionnels et personnels de Corentin DELAISTRE, développeur Front-End à Saint-Etienne</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png"/>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
 </head>
@@ -29,14 +30,16 @@
         </header>
 
 
-        <nav class="burger-nav flexwrap justcenter">                <!-- MENU BURGER -->
-            <ul class="flexwrap flexcolumn g50 align-center">
-                <li><a href="./index.html" title="Accès à la page d'acceuil">Acceuil</a></li>
-                <li><a href="./projects.html" title="Acceder à la page projets">Projets</a></li>
-                <li><a href="./about.html" title="Acceder à la page à propos">A propos</a></li>
-                <li><a href="./contact.html" title="Acceder à la page contact">Contact</a></li>
-                <li><a href="" title="Télécharger le CV">CV</a></li>
-            </ul>
+        <nav class="burger-nav ">                <!-- MENU BURGER -->
+            <div class="flexwrap justcenter">
+                <ul class="flexwrap flexcolumn g50 align-center">
+                    <li><a href="./index.html" title="Accès à la page d'acceuil">Acceuil</a></li>
+                    <li><a href="./projects.html" title="Acceder à la page projets">Projets</a></li>
+                    <li><a href="./about.html" title="Acceder à la page à propos">A propos</a></li>
+                    <li><a href="./contact.html" title="Acceder à la page contact">Contact</a></li>
+                    <li><a href="" title="Télécharger le CV">CV</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="swiper swiper-projets cont1050"> <!-- CONTAINER PROJETS -->
             <div class="swiper-wrapper wrapper-projets">
@@ -113,6 +116,7 @@
     </main>
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="./nav-app.js"></script>
+    <script src="./burger-app.js"></script>
     <script src="./projets-app.js"></script>
 </body>
 </html>

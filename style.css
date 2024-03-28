@@ -543,6 +543,9 @@ nav a{
     h3{
         font-size: 20px;
     }
+    h4{
+        font-size: 20px;
+    }
     .navlat{
         display:none;
     }
@@ -668,7 +671,19 @@ nav a{
         object-fit: cover;
         object-position: center;
     }
-}
+    /*PROJETS*/
+    .np-bot{
+        width: fit-content;
+        position: absolute;
+        left: 50%;
+        top:15px;
+        transform: translateX(-50%);
+    }
+    .np-bot h2{
+        font-size: 20px;
+    }
+    }
+
 @media all and (min-width:581px) and (max-width:1150px){
     h1{
         font-size: 40px;
