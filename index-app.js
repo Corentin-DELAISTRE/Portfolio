@@ -17,7 +17,13 @@ scrollSwip.addEventListener("touchmove",replace)
 
 function replace(){
   setTimeout(()=>{//J'attends avant d'executer ma fonction
-    nomPrenom.style.transform = "translateX(0)"//ma div "nom-prenom" en bas à gauche apparaît
+    if(window.innerWidth > 1080){
+      nomPrenom.style.transform = "translateX(0)"
+    }else if(window.innerWidth <= 1080){
+      nomPrenom.style.transform = "translateY(0)"
+      nomPrenom.style.transform = "translateX(-50%)"
+    }
+    //ma div "nom-prenom" en bas à gauche apparaît
     //Le contenu de ma slide "defaut" devient celle correspondant à mon CV. Cela évite d'enlever une slide et d'avoir un décalage non controlé dans le slider
     defautSlide.innerHTML = `<div class="box cv-box flexwrap spacebetween box-shadow pad-box">
                                 <div class="text-box w60 flexwrap align-center">
