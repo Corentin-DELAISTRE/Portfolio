@@ -611,6 +611,9 @@ nav a{
     .nom-prenom{
         width: 300px;
     }
+    .arrow{
+        display: none;
+    }
     .text-arrow{
         font-size: 24px;
         gap: 50px;
@@ -742,6 +745,9 @@ nav a{
     }
     .nom-prenom{
         width: 300px;
+    }
+    .arrow{
+        display: none;
     }
     .text-arrow{
         font-size: 24px;
