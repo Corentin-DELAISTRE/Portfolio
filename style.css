@@ -583,7 +583,7 @@ nav a{
     }
     .dev-front{
         width: 230px;
-        position: absolute;
+        position: fixed;
         right: 0;
         bottom: 25px;
     }
