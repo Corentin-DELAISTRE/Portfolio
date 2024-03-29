@@ -682,6 +682,52 @@ nav a{
     .np-bot h2{
         font-size: 20px;
     }
+    .pad-proj{
+        padding: 10px;
+    }
+    .swiper-projets{
+        height: 750px;
+        margin-top: 0;
+        width: 100%;
+    }
+    .titre-projet{
+        height: fit-content;
+    }
+    .projet-slide{
+        box-shadow: 0 0 0 0;
+        width: 100%;
+        gap: 10px;
+        height: 100%;
+    }
+    .proj-infos{
+        justify-content: start;
+        height: fit-content;
+    }
+    .badge{
+        padding: 5px 8px;
+        width: fit-content;
+    }
+    .infos-left{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column-reverse;
+        justify-content: start;
+        gap: 5px;
+    }
+    .infos-right{
+        width: 100%;
+        gap: 10px;
+        height: fit-content;
+    }
+    .visit-site{
+        display: none;
+    }
+    .swiper-auto{
+        height:22vw;
+    }
+    .scroll-downs{
+        display: none;
+    }
     }
 
 @media all and (min-width:581px) and (max-width:1150px){
@@ -823,6 +869,7 @@ nav a{
     h3{
         font-size: 32px;
     }
+    /*INDEX*/
     .swiper-index {
         max-width: 800px;
         height: 400px;
@@ -838,4 +885,5 @@ nav a{
     .defaut-box{
         gap: 0;
     }
+
 }
