@@ -757,6 +757,29 @@ nav a{
     .arrow-down{
         display: block;
     }
+    /*CONTACT*/
+    #contact-body{
+        background-position: center;
+    }
+    .contact-container{
+        height: calc(80%);
+        gap: 50px;
+    }
+    .contact-container h4{
+        font-size: 32px;
+    }
+    .contact-container img{
+        width: 30px;
+    }
+    .reseaux div div{
+        transition: transform ease 0.3s;
+    }
+    .reseaux div div:hover{
+        transform: translateY(20px);
+    }
+    .p-contact{
+        font-size: 20px;
+    }
     }
 
 @media all and (min-width:581px) and (max-width:1150px){
@@ -957,6 +980,28 @@ nav a{
     .arrow-down{
         display: block;
     }
+    #contact-body{
+        background-position: center;
+    }
+    .contact-container{
+        height: calc(80%);
+        gap: 50px;
+    }
+    .contact-container h4{
+        font-size: 32px;
+    }
+    .contact-container img{
+        width: 30px;
+    }
+    .reseaux div div{
+        transition: transform ease 0.3s;
+    }
+    .reseaux div div:hover{
+        transform: translateY(20px);
+    }
+    .p-contact{
+        font-size: 20px;
+    }
 }
 @media all and (min-width:1151px) and (max-width:1500px){
     h1{
@@ -1061,5 +1106,27 @@ nav a{
     .text-proch{
         font-size: 32px;
         padding: 16px;
+    }
+    #contact-body{
+        background-position: center;
+    }
+    .contact-container{
+        height: calc(80%);
+        gap: 50px;
+    }
+    .contact-container h4{
+        font-size: 32px;
+    }
+    .contact-container img{
+        width: 30px;
+    }
+    .reseaux div div{
+        transition: transform ease 0.3s;
+    }
+    .reseaux div div:hover{
+        transform: translateY(20px);
+    }
+    .p-contact{
+        font-size: 20px;
     }
 }

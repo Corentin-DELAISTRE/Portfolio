@@ -10,8 +10,16 @@
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
 </head>
 <body id="contact-body" class="fade-in">
+    <header>            <!-- HEADER RESPONSIVE -->
+        <div class="flexwrap align-center spacebetween">
+            <div class="logo">
+                <img src="./assets/logo_cd.png" alt="Logo Corentin DELAISTRE" class="responsive-img">
+            </div>
+            <div id="burger" class="none-burg"><img class="responsive-img" src="./assets/burger-bar.png" alt="Icone pour ouvrir le menu depliant"></div> 
+        </div>  
+    </header>
     <main>
-        <nav>                                               <!-- NAV LATERALE -->
+        <nav class="navlat">                                               <!-- NAV LATERALE -->
             <ul class="flexwrap">
                 <li><a href="./index.html" title="Acceder à la page d'accueil">Accueil</a></li>
                 <li><a href="./projects.html" title="Acceder à la page projets">Projets</a></li>
@@ -19,6 +27,19 @@
                 <li><a href="./contact.html" title="Acceder à la page contact">Contact</a></li>
                 <li><a href="./cv.html" title="Télécharger le CV">CV</a></li>
             </ul>
+        </nav>
+
+
+        <nav class="burger-nav ">                <!-- MENU BURGER -->
+            <div class="flexwrap justcenter">
+                <ul class="flexwrap flexcolumn g50 align-center">
+                    <li><a href="./index.html" title="Accès à la page d'acceuil">Acceuil</a></li>
+                    <li><a href="./projects.html" title="Acceder à la page projets">Projets</a></li>
+                    <li><a href="./about.html" title="Acceder à la page à propos">A propos</a></li>
+                    <li><a href="./contact.html" title="Acceder à la page contact">Contact</a></li>
+                    <li><a href="" title="Télécharger le CV">CV</a></li>
+                </ul>
+            </div>
         </nav>
         <h2 class="textcenter contact-title">Vous voulez échanger?</h2>
         <div class="cont800 contact-container flexwrap align-center flexcolumn g100">
