@@ -686,7 +686,7 @@ nav a{
         padding: 10px;
     }
     .swiper-projets{
-        height: 750px;
+        height: calc(100% - 5rem - 50px);
         margin-top: 0;
         width: 100%;
     }
@@ -697,7 +697,7 @@ nav a{
         box-shadow: 0 0 0 0;
         width: 100%;
         gap: 10px;
-        height: 100%;
+        height: fit-content;
     }
     .proj-infos{
         justify-content: start;

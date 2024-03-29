@@ -7,31 +7,24 @@ fetch("./assets/projets.json")
     allSwipes(rep)
 })
 function allSwipes(){
-    let device = window.innerWidth
-if(device <= 580){
-    swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
+    let swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
         direction: "vertical",
         slidesPerView: 1,
         spaceBetween: 30,
+        mousewheel:true,
         initialSlide: 0,
-        freeMode :{
-            enabled: true,
-            sticky:true,
+        freeMode:true,
+        breakpoints:{
+            580:{
+                slidesPerView:1,
+                spaceBetween:30,
+                freeMode :false,
+            }
         },
         loop:false,
-        speed:1000,})
-}else{
-    let swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
-    direction: "vertical",
-    slidesPerView: 1,
-    spaceBetween: 30,
-    initialSlide: 0,
-    mousewheel: true,
-    loop:false,
-    speed:1000,
+        speed:1000,
+    })
 
-})
-}
    
 let swiperAuto = new Swiper(".swiper-auto", { //CAROUSEL AUTO DANS LA SLIDE
     direction: "horizontal",
