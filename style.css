@@ -399,13 +399,15 @@ nav a{
 .black-box{
     background-color: var(--black50);
 }
-
 .swiper-wrapper-linear {
     height: 200px;
     -webkit-transition-timing-function:linear!important; 
     -o-transition-timing-function:linear!important;
     transition-timing-function:linear!important; 
-  }
+}
+.text-proch{
+    font-size: 48px;
+}
 /*ICONE SOURIS SCROLL*/
 .scroll-downs {
     position: absolute;
@@ -439,6 +441,7 @@ nav a{
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
   }
+  
 /*A PROPOS*/
 #about-body{
     background-image: url(./assets/apropos_bg.jpg);
@@ -672,6 +675,10 @@ nav a{
         object-position: center;
     }
     /*PROJETS*/
+    #projets-body{
+        font-size: 15px;
+        background-position: center;
+    }
     .np-bot{
         width: fit-content;
         position: absolute;
@@ -697,7 +704,7 @@ nav a{
         box-shadow: 0 0 0 0;
         width: 100%;
         gap: 10px;
-        height: fit-content;
+        height: calc(100% + 5rem + 50px);
     }
     .proj-infos{
         justify-content: start;
@@ -727,6 +734,10 @@ nav a{
     }
     .scroll-downs{
         display: none;
+    }
+    .text-proch{
+        font-size: 32px;
+        padding: 16px;
     }
     }
 

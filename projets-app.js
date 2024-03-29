@@ -10,7 +10,7 @@ function allSwipes(){
     let swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
         direction: "vertical",
         slidesPerView: 1,
-        spaceBetween: 30,
+        spaceBetween: 150,
         mousewheel:true,
         initialSlide: 0,
         freeMode:true,
@@ -37,16 +37,11 @@ let swiperAuto = new Swiper(".swiper-auto", { //CAROUSEL AUTO DANS LA SLIDE
         delay:0,
         disableOnInteraction: false,
     }
-}); 
-
-
+    }); 
 }
 
-
-
-
 function fillSlide(datas){
-
+    
     let slide = document.querySelector(".wrapper-projets")
 
    // let badgesDiv = document.createElement("div")
@@ -99,4 +94,11 @@ function fillSlide(datas){
                                     </div>
                                     </div>`
                                 });
+                                if(slide.childElementCount === datas.length){
+                                    slide.innerHTML +=`<div class="swiper-slide flexwrap g24">
+                                                            <div class="prochainement textcenter flexwrap justcenter align-center projet-slide">
+                                                                <p class="text-proch">Vous êtes arrivé à la fin mais d'autres projets apparaîtrons bientôt...</p>
+                                                            </div>
+                                                        </div>`
+                                }
                             }
