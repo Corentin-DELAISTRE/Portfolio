@@ -959,8 +959,27 @@ nav a{
     }
 }
 @media all and (min-width:1151px) and (max-width:1500px){
+    h1{
+        font-size: 24px;
+    }
     h3{
         font-size: 32px;
+    }
+    h4{
+        font-size:20px;
+    }
+    a{
+        height: fit-content;
+    }
+    .np-bot {
+        width: 260px;
+        height: fit-content;
+        position: absolute;
+        left: 50px;
+        bottom: 25px;
+    }
+    .np-bot h2 {
+        font-size: 24px;
     }
     /*INDEX*/
     .swiper-index {
@@ -986,5 +1005,61 @@ nav a{
         transform: translateX(calc(-100% - 50px));
         transition: transform ease 0.8s;
     }
-
+    /*PROJETS*/
+    .swiper-projets{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 600px;
+        margin-top: 100px;
+    }
+    .projet-slide{
+        width: 780px;
+        height: 580px;
+        background-color: var(--black50);
+        box-shadow: 20px 20px 0px 0px var(--black25);
+    }
+    .pad-proj{
+        padding: 10px;
+    }
+    .scroll-downs {
+        position: absolute;
+        bottom: 30px;
+        right: 50%;
+        margin: auto;
+        width :34px;
+        height: 55px;
+      }
+      .mousey {
+        width: 3px;
+        padding: 10px 15px;
+        height: 35px;
+        border: 3px solid white;
+        border-radius: 25px;
+        opacity: 0.75;
+        box-sizing: content-box;
+      }
+      .scroller {
+        width: 4px;
+        height: 12px;
+        border-radius: 25%;
+        background-color: white;
+        animation-name: scroll;
+        animation-duration: 2.2s;
+        animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+        animation-iteration-count: infinite;
+      }
+    .dev-front{
+        width: 300px;
+        position: fixed;
+        right: 0;
+        bottom: 25px;
+    }
+    .infos-right{
+        gap: 10px;
+    }
+    .text-proch{
+        font-size: 32px;
+        padding: 16px;
+    }
 }

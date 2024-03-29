@@ -68,7 +68,7 @@ function fillSlide(datas){
                                                 <h4>Le contexte</h4>
                                                 <p>${data.contDesc}</p>
                                             </div>
-                                            <div class="flexwrap justcenter black-box pad-proj w100">
+                                            <div class="flexwrap justcenter align-center black-box pad-proj w100">
                                                 <h4 class="textcenter visit-site">Visiter le site</h4>
                                                 <a href="">${data.adresse}</a>
                                             </div>
