@@ -7,7 +7,21 @@ fetch("./assets/projets.json")
     allSwipes(rep)
 })
 function allSwipes(){
-   let swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
+    let device = window.innerWidth
+if(device <= 580){
+    swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        initialSlide: 0,
+        freeMode :{
+            enabled: true,
+            sticky:true,
+        },
+        loop:false,
+        speed:1000,})
+}else{
+    let swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
     direction: "vertical",
     slidesPerView: 1,
     spaceBetween: 30,
@@ -15,7 +29,10 @@ function allSwipes(){
     mousewheel: true,
     loop:false,
     speed:1000,
+
 })
+}
+   
 let swiperAuto = new Swiper(".swiper-auto", { //CAROUSEL AUTO DANS LA SLIDE
     direction: "horizontal",
     slidesPerView: 2.5,
@@ -28,6 +45,8 @@ let swiperAuto = new Swiper(".swiper-auto", { //CAROUSEL AUTO DANS LA SLIDE
         disableOnInteraction: false,
     }
 }); 
+
+
 }
 
 
