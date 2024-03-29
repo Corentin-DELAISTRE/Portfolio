@@ -217,6 +217,9 @@ header div{
 .burger-nav{
     display: none;
 }
+#burger{
+    width: 12%;
+}
 /*ANIMATIONS*/
 .fade-in {
 	animation: fade-in 3s ;
