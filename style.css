@@ -218,7 +218,7 @@ header div{
     display: none;
 }
 #burger{
-    width: 12%;
+    width: 48px;
 }
 /*ANIMATIONS*/
 .fade-in {
@@ -410,6 +410,15 @@ nav a{
 }
 .text-proch{
     font-size: 48px;
+}
+.arrow-down{
+    width: 32px;
+    height: 32px;
+    transform: translate(-50%,50%);
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    display: none;
 }
 /*ICONE SOURIS SCROLL*/
 .scroll-downs {
@@ -648,7 +657,7 @@ nav a{
     .box{
         width: 100%;
         height:  100%;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
         gap: 24px;
@@ -745,6 +754,9 @@ nav a{
         font-size: 32px;
         padding: 16px;
     }
+    .arrow-down{
+        display: block;
+    }
     }
 
 @media all and (min-width:581px) and (max-width:1150px){
@@ -755,7 +767,7 @@ nav a{
         font-size: 40px;
     }
     h3{
-        font-size: 48px;
+        font-size: 32px;
     }
     .navlat{
         display:none;
@@ -881,6 +893,70 @@ nav a{
         object-fit: cover;
         object-position: center;
     }
+    /*PROJETS*/
+    #projets-body{
+        font-size: 16px;
+        background-position: center;
+    }
+    .np-bot{
+        width: fit-content;
+        position: absolute;
+        left: 50%;
+        top:15px;
+        transform: translateX(-50%);
+    }
+    .np-bot h2{
+        font-size: 20px;
+    }
+    .pad-proj{
+        padding: 10px;
+    }
+    .swiper-projets{
+        height: calc(100% - 7rem - 75px);
+        margin-top: 2rem;
+        width: 90%;
+    }
+    .titre-projet{
+        height: fit-content;
+    }
+    .projet-slide{
+        box-shadow: 0 0 0 0;
+        width: 100%;
+        gap: 10px;
+    }
+    .proj-infos{
+        justify-content: start;
+    }
+    .badge{
+        padding: 5px 8px;
+        width: fit-content;
+    }
+    .infos-left{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: start;
+        gap: 5px;
+    }
+    .infos-right{
+        width: 100%;
+        gap: 10px;
+    }
+    .visit-site{
+        display: none;
+    }
+    .swiper-auto{
+        height:22vw;
+    }
+    .scroll-downs{
+        display: none;
+    }
+    .text-proch{
+        font-size: 32px;
+        padding: 16px;
+    }
+    .arrow-down{
+        display: block;
+    }
 }
 @media all and (min-width:1151px) and (max-width:1500px){
     h3{
@@ -901,6 +977,14 @@ nav a{
     }
     .defaut-box{
         gap: 0;
+    }
+    .np-bot-index{
+        width: 410px;
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        transform: translateX(calc(-100% - 50px));
+        transition: transform ease 0.8s;
     }
 
 }

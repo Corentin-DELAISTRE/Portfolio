@@ -15,7 +15,7 @@ function allSwipes(){
         initialSlide: 0,
         freeMode:true,
         breakpoints:{
-            580:{
+            1150:{
                 slidesPerView:1,
                 spaceBetween:30,
                 freeMode :false,
@@ -97,7 +97,7 @@ function fillSlide(datas){
                                 if(slide.childElementCount === datas.length){
                                     slide.innerHTML +=`<div class="swiper-slide flexwrap g24">
                                                             <div class="prochainement textcenter flexwrap justcenter align-center projet-slide">
-                                                                <p class="text-proch">Vous êtes arrivé à la fin mais d'autres projets apparaîtrons bientôt...</p>
+                                                                <p class="text-proch">Vous êtes arrivé à la fin mais d'autres projets apparaîtront bientôt...</p>
                                                             </div>
                                                         </div>`
                                 }

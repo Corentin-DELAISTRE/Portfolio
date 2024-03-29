@@ -17,9 +17,9 @@ scrollSwip.addEventListener("touchmove",replace)
 
 function replace(){
   setTimeout(()=>{//J'attends avant d'executer ma fonction
-    if(window.innerWidth > 1200){
+    if(window.innerWidth > 1151){
       nomPrenom.style.transform = "translateX(0)"
-    }else if(window.innerWidth <= 1200){
+    }else if(window.innerWidth <= 1151){
       nomPrenom.style.transform = "translateY(0)"
       nomPrenom.style.transform = "translateX(-50%)"
     }
