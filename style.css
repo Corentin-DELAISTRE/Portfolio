@@ -825,6 +825,12 @@ nav a{
     }
     .element{
         width: 100%;
+        height: 50px;
+        transition: width ease 0.7s;
+    }
+    .open{
+        width: 100%;
+        height: 50%;
     }
     }
 
