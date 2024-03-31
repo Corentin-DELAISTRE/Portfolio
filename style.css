@@ -664,6 +664,7 @@ nav a{
     }
     .box{
         height:  100%;
+        width: 100%;
         align-items: center;
         flex-direction: column;
         gap: 24px;
@@ -720,7 +721,7 @@ nav a{
         padding: 10px;
     }
     .swiper-projets{
-        height: calc(100% - 5rem);
+        height: calc(100% - 5rem - 50px);
         margin-top: 0;
         width: 100%;
     }
@@ -737,7 +738,6 @@ nav a{
         justify-content: start;
         height: fit-content;
     }
-    
     .badge{
         padding: 5px 8px;
         width: fit-content;
@@ -783,9 +783,14 @@ nav a{
     #contact-body{
         background-position: center;
     }
+    .contact-main{
+        height: calc(100% - 6rem);
+    }
     .contact-container{
-        height: calc(80%);
-        gap: 50px;
+        width: 100%;
+        height:fit-content;
+        gap: 24px;
+        padding: 10px;
     }
     .contact-container h4{
         font-size: 32px;
@@ -1002,8 +1007,12 @@ nav a{
     .arrow-down{
         display: block;
     }
+    /*CONTACT*/
     #contact-body{
         background-position: center;
+    }
+    .contact-main{
+        height: calc(100% - 6rem);
     }
     .contact-container{
         height: calc(80%);
