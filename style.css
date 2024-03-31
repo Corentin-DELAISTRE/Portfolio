@@ -547,6 +547,15 @@ nav a{
 .p-contact{
     font-size: 20px;
 }
+/*ANIMATION FLECHE MOBILE SUR PAGE PROJET REPONSIVE*/
+@keyframes arrow-move{
+    0%{
+        transform:translateY(0)
+    }
+    100%{
+        transform:translateY(-10px)
+    }
+}
 /*RESPONSIVE*/
 @media all and (max-width: 580px){
     h1{
@@ -732,7 +741,7 @@ nav a{
         box-shadow: 0 0 0 0;
         width: 100%;
         gap: 10px;
-        height: calc(100% + 5rem + 50px);
+        height: calc(100% + 5rem + 100px);
     }
     .proj-infos{
         justify-content: start;
@@ -771,14 +780,6 @@ nav a{
         display: block;
         animation: arrow-move 0.6s ease infinite alternate both;
     }
-    @keyframes arrow-move{
-        0%{
-            transform:translateY(0)
-        }
-        100%{
-            transform:translateY(-10px)
-        }
-    }
     /*CONTACT*/
     #contact-body{
         background-position: center;
@@ -807,6 +808,8 @@ nav a{
     .p-contact{
         font-size: 20px;
     }
+    /*A PROPOS*/
+
     }
 
 @media all and (min-width:581px) and (max-width:1150px){
@@ -1006,6 +1009,7 @@ nav a{
     }
     .arrow-down{
         display: block;
+        animation: arrow-move 0.6s ease infinite alternate both;
     }
     /*CONTACT*/
     #contact-body{

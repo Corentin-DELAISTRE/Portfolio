@@ -10,7 +10,7 @@ function allSwipes(){
     let swipperProjets = new Swiper(".swiper-projets", { //SLIDER DE PROJET
         direction: "vertical",
         slidesPerView: 1,
-        spaceBetween: 150,
+        spaceBetween: 200,
         mousewheel:true,
         initialSlide: 0,
         freeMode:true,
