@@ -809,7 +809,23 @@ nav a{
         font-size: 20px;
     }
     /*A PROPOS*/
-
+    #about-body{
+        background-position: center;
+    }
+    .about-main{
+        height: calc(100% - 5rem);
+    }
+    .container{
+        width: 90%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contpagi{
+        gap: 10px;
+    }
+    .element{
+        width: 100%;
+    }
     }
 
 @media all and (min-width:581px) and (max-width:1150px){
