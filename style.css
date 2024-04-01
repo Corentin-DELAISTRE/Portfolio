@@ -813,24 +813,57 @@ nav a{
         background-position: center;
     }
     .about-main{
-        height: calc(100% - 5rem);
+        height: calc(100% - 6rem);
+    }
+    .about-title{
+        margin: 10px 0;
+        font-size: 20px;
+        width: 100%;
     }
     .container{
-        width: 90%;
+        width: 95%;
+        height: fit-content;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
     .contpagi{
         gap: 10px;
+        flex-direction: column; 
     }
     .element{
         width: 100%;
-        height: 50px;
+        height: 24px;
         transition: width ease 0.7s;
+        border: var(--grey50) solid 1px;
     }
     .open{
         width: 100%;
         height: 50%;
+    }
+    .bullet{
+        width: 16px;
+        height: 16px;
+    }
+    .contenu{
+        padding: 8px;
+        gap: 10px;
+        font-size: 15px;
+    }
+    .present-div{
+        width: 100%;
+    }
+    .profil-about-img{
+        display: none;
+    }
+    .hardskill{
+        width: 22%;
+        justify-content: end;
+    }
+    .contenu h3{
+        font-size: 24px;
+    }
+    .contenu h4{
+        font-size: 16px;
     }
     }
 

@@ -25,7 +25,7 @@ function ouvreLaSlide(element){
 function activePagi(x){
     let activeBullet = document.querySelector(".active-bullet")//Je déclare une variable pour l'élément de pagination qui est actif
     activeBullet.classList.remove("active-bullet")//Je le rend inactif
-    bullets[x].classList.add("active-bullet")//L'élément de ma pagination qui correspond à ma slide devient actif
+    bullets[x].classList.add("active-bullet")//L'élément de ma pagination qui correspond à ma slide ouverte devient actif
 }
 
 elements.forEach((element,posel)=>{// Pour chaque slide
@@ -35,8 +35,8 @@ elements.forEach((element,posel)=>{// Pour chaque slide
     })
 })
 
-bullets.forEach((bullet,posbul)=>{
-    bullet.addEventListener("click",()=>{
+bullets.forEach((bullet,posbul)=>{//Pour chaque élémment de pagination 
+    bullet.addEventListener("click",()=>{//J'ecoute le clic et j'applique les fonctions suivantes
         ouvreLaSlide(elements[posbul])
         activePagi(posbul)
     })
