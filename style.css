@@ -499,7 +499,7 @@ nav a{
     transition: opacity 0.3s ease;
     opacity: 0;
     padding: 50px;
-    overflow:hidden ;
+    overflow: hidden;
 }
 .open{
     width: 800px;
@@ -829,16 +829,16 @@ nav a{
     .contpagi{
         gap: 10px;
         flex-direction: column; 
+        height: 85%;
     }
     .element{
         width: 100%;
         height: 24px;
-        transition: width ease 0.7s;
         border: var(--grey50) solid 1px;
     }
     .open{
         width: 100%;
-        height: 50%;
+        height: fit-content;
     }
     .bullet{
         width: 16px;
@@ -857,7 +857,6 @@ nav a{
     }
     .hardskill{
         width: 22%;
-        justify-content: end;
     }
     .contenu h3{
         font-size: 24px;
@@ -1092,6 +1091,45 @@ nav a{
     .p-contact{
         font-size: 20px;
     }
+    /*A PROPOS*/
+    #about-body{
+        background-position: center;
+    }
+    .about-main{
+        height: calc(100% - 6rem - 100px);
+    }
+    .about-title{
+        margin: 32px 0;
+        width: 100%;
+    }
+    .container{
+        width: 95%;
+        gap: 10px;
+    }
+    .contpagi{
+        gap: 10px;
+    }
+    .element{
+        height: 100%;
+    }
+    .bullet{
+        width: 24px;
+        height: 24px;
+    }
+    .contenu{
+        padding: 32px;
+        gap: 24px;
+    }
+    .hardskill{
+        width: 20%;
+    }
+    .contenu h3{
+        font-size: 24px;
+    }
+    .contenu h4{
+        font-size: 16px;
+    }
+
 }
 @media all and (min-width:1151px) and (max-width:1500px){
     h1{
