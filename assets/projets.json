@@ -35,5 +35,24 @@
             "img3":"Dehors!/dehors_cards.png",
             "img4":"Dehors!/dehors_mid.png"
         }
+    },
+
+    {
+        "titre": "M’S",
+        "badges":["Examen","HTML", "CSS", "JS"],
+        "contDesc":"M’S (Men Sportswear) est une boutique spécialisée dans les équipements de sports pour hommes. Leur demande: l'intégration selon la maquette fournie de la page d’accueil, un template de page d’une catégorie “chaussures-baskets”, ainsi qu’un template de page détail produit.",
+        "adresse":"http://adresse-fictive.com",
+        "objDesc":{
+            "obj1":"Utilisation des connaissances sur le référencement naturel pour que le site soit rapidement trouvé dans les moteurs de recherche",
+            "obj2":"Validation des données saisies dans le formulaire de contact",
+            "obj3":"Affichage dynamique de la page \"catégories baskets\" via un fichier JSON",
+            "obj4":"Proposition d'animations au designer pour donner du dynamisme aux pages tout en respectant l'identité de la marque"
+        },
+        "photos":{
+            "img1":"Mens_sportswear/MS_hero.png",
+            "img2":"Mens_sportswear/MS_form.png",
+            "img3":"Mens_sportswear/MS_baskets.png",
+            "img4":"Mens_sportswear/MS_footer.png"
+        }
     }
 ]
