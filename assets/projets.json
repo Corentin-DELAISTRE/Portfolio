@@ -1,5 +1,23 @@
 [
     {
+        "titre": "MNTN",
+        "badges":["Examen","HTML", "CSS"],
+        "contDesc":"MNTN est une entreprise spécialisée dans les activités de plein air et le tourisme. Elle propose du matériel ainsi que des conseils et des ressources pour les randonneurs confirmés où non.",
+        "adresse":"http://adresse-fictive.com",
+        "objDesc":{
+            "obj1":"Utilisation correcte des balises sémantiques.",
+            "obj2":"Qualité générale de la structure HTML.",
+            "obj3":"Nommage des sélecteurs et qualité générale du CSS.",
+            "obj4":"Utilisation des positionnements (static, fixed, relative , absolute)."
+        },
+        "photos":{
+            "img1":"mntn/mntn_hero.png",
+            "img2":"mntn/mntn_section.png",
+            "img3":"mntn/mntn_section_bis.png",
+            "img4":"mntn/mntn_footer.png"
+        }
+    },
+    {
         "titre": "4 Elements",
         "badges":["Examen","HTML", "CSS"],
         "contDesc":"4 Éléments, un groupe franco-chinois, propose des hôtels insolites intégrés à des environnements naturels, ciblant les couples CSP+ sans enfant, avec un site web élégant permettant des réservations en ligne ou par téléphone, incluant des animations au survol en accord avec leur esthétique.",
@@ -38,9 +56,9 @@
     },
 
     {
-        "titre": "M’S",
+        "titre": "M'S",
         "badges":["Examen","HTML", "CSS", "JS"],
-        "contDesc":"M’S (Men Sportswear) est une boutique spécialisée dans les équipements de sports pour hommes. Leur demande: l'intégration selon la maquette fournie de la page d’accueil, un template de page d’une catégorie “chaussures-baskets”, ainsi qu’un template de page détail produit.",
+        "contDesc":"M'S (Men Sportswear) est une boutique spécialisée dans les équipements de sports pour hommes. Leur demande: l'intégration selon la maquette fournie de la page d’accueil, un template de page d’une catégorie “chaussures-baskets”, ainsi qu’un template de page détail produit.",
         "adresse":"http://adresse-fictive.com",
         "objDesc":{
             "obj1":"Utilisation des connaissances sur le référencement naturel pour que le site soit rapidement trouvé dans les moteurs de recherche",
