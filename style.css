@@ -396,6 +396,10 @@ nav a{
     background-color:#f7df1e;
     color: var(--black100);
 }
+.badge-PHP{
+    background-color: #777BB3;
+    color: white;
+}
 .projet-slide h3{
     width: fit-content;
 }
