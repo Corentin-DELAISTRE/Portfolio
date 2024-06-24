@@ -478,7 +478,7 @@ nav a{
     transition: width ease 0.7s;
     display: flex;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: auto;
 }
 .bullet{
     width: 25px;
