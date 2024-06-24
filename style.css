@@ -498,6 +498,7 @@ nav a{
     transition: opacity 0.3s ease;
     opacity: 0;
     padding: 50px;
+    overflow: hidden;
 }
 .open{
     width: 800px;
