@@ -1,7 +1,7 @@
 [
     {
         "titre": "MNTN",
-        "badges":["Examen","HTML", "CSS"],
+        "badges":["HTML", "CSS"],
         "contDesc":"MNTN est une entreprise spécialisée dans les activités de plein air et le tourisme. Elle propose du matériel ainsi que des conseils et des ressources pour les randonneurs confirmés où non.",
         "adresse":"http://adresse-fictive.com",
         "objDesc":{
@@ -19,7 +19,7 @@
     },
     {
         "titre": "4 Elements",
-        "badges":["Examen","HTML", "CSS"],
+        "badges":["HTML", "CSS"],
         "contDesc":"4 Éléments propose des hôtels insolites intégrés à des environnements naturels, ciblant les couples CSP+ sans enfant, avec un site web élégant permettant des réservations en ligne ou par téléphone, incluant des animations au survol en accord avec leur esthétique.",
         "adresse":"http://adresse-fictive.com",
         "objDesc":{
@@ -38,7 +38,7 @@
 
     {
         "titre": "Dehors!",
-        "badges":["Examen","HTML", "CSS", "JS"],
+        "badges":["HTML", "CSS", "JS"],
         "contDesc":"\"Dehors! Escape Game Paris\" est une entreprise proposant des jeux d'évasion en extérieur à Paris. Le site vise à promouvoir leurs activitées en fournissant des informations sur les expériences proposées, les thèmes des jeux ou encore les avantages de participer",
         "adresse":"http://adresse-fictive.com",
         "objDesc":{
