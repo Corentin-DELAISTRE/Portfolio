@@ -70,7 +70,7 @@ function fillSlide(datas){
                                             </div>
                                             <div class="flexwrap justcenter align-center black-box pad-proj w100">
                                                 <h4 class="textcenter visit-site">Visiter le site</h4>
-                                                <a href="">${data.adresse}</a>
+                                                <a href="${data.adresse}">${data.adresse}</a>
                                             </div>
                                         </div>
                                         <div class="infos-right w48 flexwrap g24 black-box pad-proj">
