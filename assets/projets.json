@@ -67,10 +67,10 @@
             "obj4":"Proposition d'animations au designer pour donner du dynamisme aux pages tout en respectant l'identité de la marque"
         },
         "photos":{
-            "img1":"Mens_sportswear/MS_hero.png",
+            "img1":"Mens_sportswear/MS_hero.PNG",
             "img2":"Mens_sportswear/MS_article.png",
-            "img3":"Mens_sportswear/MS_baskets.png",
-            "img4":"Mens_sportswear/MS_footer.png"
+            "img3":"Mens_sportswear/MS_baskets.PNG",
+            "img4":"Mens_sportswear/MS_footer.PNG"
         }
     }
 ]
