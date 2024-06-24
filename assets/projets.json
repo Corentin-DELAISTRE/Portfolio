@@ -82,14 +82,14 @@
         "objDesc":{
             "obj1":"Conception/modelisation du modèle de données et construction de la base de données",
             "obj2":"Utilisation de requête AJAX pour l'élaboration en temps réel et le récapitulatif de la pizza en cours d'élaboration",
-            "obj3":"Gestion de la session et des droits, et des envois de mails en cas d'oubli de mot de passe.",
+            "obj3":"Gestion de la session et des droits, des envois de mails en cas d'oubli de mot de passe.",
             "obj4":"Utilisation de la programmation orientée objet et de l'héritage"
         },
         "photos":{
             "img1":"mamma_mia_pizza/page_connexion.png",
             "img2":"mamma_mia_pizza/elaboration.png",
-            "img3":"",
-            "img4":""
+            "img3":"mamma_mia_pizza/ingredients.png",
+            "img4":"mamma_mia_pizza/recap.png"
         }
     }
 ]
