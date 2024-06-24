@@ -31,7 +31,7 @@ function replace(){
                                     <p>
                                         À la recherche d'informations condensées et précises ? Téléchargez simplement mon CV pour découvrir un résumé complet de mon parcours professionnel, compétences clés et réalisations. C'est le moyen idéal d'obtenir un aperçu rapide de ce que je peux offrir.
                                     </p>
-                                    <a href="" title="Télécharger le CV" class="btn">Télécharger le CV en PDF</a>
+                                    <a href="./assets/CV_2024.pdf" title="Télécharger le CV" class="btn">Télécharger le CV en PDF</a>
                                 </div>
                                 <div class="img-box cv-img w35">
                                     <img src="./assets/CV_box.jpg" class="responsive-img one-img" alt="Image d'un bureau en bois avec un ordinateur portable ouvert sur un document. A coté on peut voir différents équipement de bureau, un smartphone ainsi que quelque plantes">
