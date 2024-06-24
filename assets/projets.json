@@ -40,7 +40,7 @@
         "titre": "Dehors!",
         "badges":["HTML", "CSS", "JS"],
         "contDesc":"\"Dehors! Escape Game Paris\" est une entreprise proposant des jeux d'évasion en extérieur à Paris. Le site vise à promouvoir leurs activitées en fournissant des informations sur les expériences proposées, les thèmes des jeux ou encore les avantages de participer",
-        "adresse":"http://adresse-fictive.com",
+        "adresse":"https://corentin-delaistre.github.io/dehors/",
         "objDesc":{
             "obj1":"Utilisation d'un fichier JSON pour générer certains contenus dynamiquement (appel AJAX avec \"fetch()\")",
             "obj2":"Utilisation de la sémantique et des attributs pour l'accessibilité et le référencement",
