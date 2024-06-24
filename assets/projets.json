@@ -3,7 +3,7 @@
         "titre": "MNTN",
         "badges":["HTML", "CSS"],
         "contDesc":"MNTN est une entreprise spécialisée dans les activités de plein air et le tourisme. Elle propose du matériel ainsi que des conseils et des ressources pour les randonneurs confirmés où non.",
-        "adresse":"http://adresse-fictive.com",
+        "adresse":"https://corentin-delaistre.github.io/MNTN/",
         "objDesc":{
             "obj1":"Utilisation correcte des balises sémantiques.",
             "obj2":"Qualité générale de la structure HTML.",
