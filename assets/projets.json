@@ -57,7 +57,7 @@
 
     {
         "titre": "M'S",
-        "badges":["Examen","HTML", "CSS", "JS"],
+        "badges": ["HTML", "CSS", "JS"],
         "contDesc":"M'S (Men Sportswear) est une boutique spécialisée dans les équipements de sports pour hommes. Leur demande: l'intégration selon la maquette fournie de la page d’accueil, un template de page d’une catégorie “chaussures-baskets”, ainsi qu’un template de page détail produit.",
         "adresse":"http://adresse-fictive.com",
         "objDesc":{
