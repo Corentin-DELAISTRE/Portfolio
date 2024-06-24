@@ -78,12 +78,12 @@
         "titre": "Mamma Mia Pizza",
         "badges": ["HTML", "CSS", "JS", "PHP"],
         "contDesc":"Implémentation d'une page permettant à l'utilisateur d'élaborer la composition de sa pizza (pâte, base, taille, ingrédients) sur un site, déjà existant, de commande de pizza en ligne. Cette page inclue l'élaboration étape par étape, le récapitulatif de la pizza avec le détail des ingrédients sélectionnés et la possssibilité de changement à tout moment.",
-        "adresse":"http://adresse-fictive.com",
+        "adresse":"http://pizza.cdelaistre.mywebecom.ovh/",
         "objDesc":{
             "obj1":"Conception/modelisation du modèle de données et construction de la base de données",
             "obj2":"Utilisation de requête AJAX pour l'élaboration en temps réel et le récapitulatif de la pizza en cours d'élaboration",
-            "obj3":"Gestion de la session et des droits",
-            "obj4":"Utilisation de la programmation orientée objet"
+            "obj3":"Gestion de la session et des droits, et des envois de mails en cas d'oubli de mot de passe.",
+            "obj4":"Utilisation de la programmation orientée objet et de l'héritage"
         },
         "photos":{
             "img1":"",
