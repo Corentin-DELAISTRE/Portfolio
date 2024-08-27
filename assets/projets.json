@@ -91,5 +91,24 @@
             "img3":"mamma_mia_pizza/ingredients.png",
             "img4":"mamma_mia_pizza/recap.png"
         }
+    },
+    {
+        "titre": "Money",
+        "badges": ["HTML", "CSS", "JS", "PHP"],
+        "contDesc":"Money est une plateforme de financement participatif pour connecter porteurs de projets et investisseurs. Elle permet de présenter des projets et de collecter des promesses de prêts. Les gestionnaires valident les projets avant leur mise en ligne, et les investisseurs peuvent promettre des financements.",
+        "adresse":"http://money.cdelaistre.mywebecom.ovh/",
+        "objDesc":{
+            "obj1":"Conception/modelisation du modèle de données et construction de la base de données",
+            "obj2":"Utilisation de requête AJAX afin d'avoir les données en temps réel",
+            "obj3":"Gestion de la session et des droits, cryptage des mots de passe",
+            "obj4":"Utilisation de la programmation orientée objet et de l'héritage"
+        },
+        "photos":{
+            "img1":"money/index.png",
+            "img2":"money/detail_projet.png",
+            "img3":"money/gestion_membre.png",
+            "img4":"money/board.png"
+        }
     }
+    
 ]
