@@ -90,6 +90,24 @@
             "img3":"money/gestion_membre.png",
             "img4":"money/board.png"
         }
+    },
+    {
+        "titre": "Maëlys D.B Sophrologue",
+        "badges": ["HTML", "CSS", "JS", "PHP"],
+        "contDesc":"Maëlys D.B sophrologue est une sophrologue certifié à Saint-Etienne venant d'ouvrir son cabinet. Le projet avait pour objectif de lui fournir un support web efficace pour sa communication, la prise de contact avec ses clients et l'accroissement de sa visibilité locale.",
+        "adresse":"https://maelysdb-sophrologue.fr/",
+        "objDesc":{
+            "obj1":"Conception/Réalisation de la maquette du site via l'analyse des besoins client",
+            "obj2":"Intégration responsive et optimisé pour le SEO",
+            "obj3":"Intégration d'un formulaire de contact géré via PHP",
+            "obj4":"Mise en ligne et suivi post-lancement pour garantir un fonctionnement optimal"
+        },
+        "photos":{
+            "img1":"maelysdb-sophrologue/hero.png",
+            "img2":"maelysdb-sophrologue/form.png",
+            "img3":"maelysdb-sophrologue/cards.png",
+            "img4":"maelysdb-sophrologue/infos.png"
+        }
     }
     
 ]
